@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Implementing VoIP in Large Scale MANETs" company="Carleton University" webLink="https://github.com/RyanWork/voip-over-manet" view-date="2018-09-12" view-index="0" gantt-divider-location="361" resource-divider-location="300" version="2.8.9" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="Implementing VoIP in Large Scale MANETs" company="Carleton University" webLink="https://github.com/RyanWork/voip-over-manet" view-date="2018-09-01" view-index="0" gantt-divider-location="361" resource-divider-location="300" version="2.8.9" locale="en_CA">
     <description><![CDATA[Gantt Chart displaying project milestones, tasks, etc for the fourth year engineering project.]]></description>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="202" order="0"/>
-        <field id="tpd4" name="Begin date" width="78" order="1"/>
-        <field id="tpd5" name="End date" width="77" order="2"/>
-        <option id="color.recent"><![CDATA[#990099]]></option>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="189" order="0"/>
+        <field id="tpd4" name="Begin date" width="77" order="1"/>
+        <field id="tpd5" name="End date" width="76" order="2"/>
+        <option id="color.recent"><![CDATA[#9933ff #9966ff #9999ff #ccccff #ff9999 #ccffcc #ffcccc #0066ff #990099]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -34,6 +34,36 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
+        <task id="0" name="Project Proposal" color="#0066ff" meeting="false" start="2018-09-12" duration="11" complete="0" thirdDate="2018-09-12" thirdDate-constraint="0" expand="true">
+            <task id="2" name="First Draft" color="#8cb6ce" meeting="false" start="2018-09-12" duration="6" complete="0" thirdDate="2018-09-12" thirdDate-constraint="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" name="Second Draft" color="#8cb6ce" meeting="false" start="2018-09-18" duration="3" complete="0" thirdDate="2018-09-12" thirdDate-constraint="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" name="Final Draft" color="#8cb6ce" meeting="false" start="2018-09-21" duration="2" complete="0" thirdDate="2018-09-12" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="17" name="Progress Report" color="#ccccff" meeting="false" start="2018-11-07" duration="31" complete="0" thirdDate="2018-09-12" thirdDate-constraint="0" expand="true"/>
+        <task id="27" name="Poster Fair" color="#ccffcc" meeting="false" start="2019-01-07" duration="47" complete="0" thirdDate="2018-07-01" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Final Report" color="#000000" meeting="false" start="2019-02-15" duration="56" complete="0" thirdDate="2018-09-01" thirdDate-constraint="0" expand="true">
+            <task id="34" name="Draft of Final Report Due" color="#8cb6ce" meeting="true" start="2019-03-08" duration="0" complete="0" thirdDate="2018-09-01" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="First Draft" color="#ff9999" meeting="false" start="2019-02-15" duration="22" complete="0" thirdDate="2018-09-01" thirdDate-constraint="0" expand="true">
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" name="Second Draft" color="#ff9999" meeting="false" start="2019-03-09" duration="23" complete="0" thirdDate="2018-09-01" thirdDate-constraint="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" name="Final Draft" color="#ff9999" meeting="false" start="2019-04-01" duration="11" complete="0" thirdDate="2018-09-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="24" name="Oral Presentation" color="#ffcccc" meeting="false" start="2019-01-28" duration="5" complete="0" thirdDate="2018-09-12" thirdDate-constraint="0" expand="true"/>
+        <task id="33" name="Project Development" meeting="false" start="2018-09-01" duration="45" complete="0" expand="true">
+            <task id="36" name="Research" color="#ccccff" meeting="false" start="2018-09-12" duration="14" complete="0" thirdDate="2018-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Project Requirements" color="#9999ff" meeting="false" start="2018-09-19" duration="8" complete="0" thirdDate="2018-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="56" name="Basic Model" color="#9966ff" meeting="false" start="2018-09-26" duration="14" complete="0" thirdDate="2018-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="60" name="AODV Implementation" color="#9933ff" meeting="false" start="2018-10-09" duration="7" complete="0" thirdDate="2018-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="61" name="AODV Analysis" color="#9933ff" meeting="false" start="2018-10-12" duration="4" complete="0" thirdDate="2018-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="67" name="Movement Model" meeting="false" start="2018-09-01" duration="1" complete="0" expand="true"/>
+        </task>
     </tasks>
     <resources/>
     <allocations/>
